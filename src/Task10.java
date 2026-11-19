@@ -6,7 +6,7 @@ public class Task10 {
         String[] words = text.split(" ");
 
         String longest = "";
-        for(int i = 0; i < words.length; i++) {
+        for (int i = 0; i < words.length; i++) {
             if(words[i].length() > longest.length()) {
                 longest = words[i];
             }
